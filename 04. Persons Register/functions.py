@@ -72,6 +72,9 @@ usuarios = [
     }
 ]
 
+sesion_iniciada = False
+usuario_actual = None
+
 def registrar_usuario():
     nombre = input("Nombre completo: ")
     edad = input("Edad: ")
@@ -93,6 +96,8 @@ def registrar_usuario():
     usuarios.append(usuario)
 
 def iniciar_sesion():
+    global sesion_iniciada
+    global usuario_actual
     correo = input("Ingrese el correo registrado: ")
     contrasena = input("Ingrese la contrasena: ")
 
@@ -101,14 +106,28 @@ def iniciar_sesion():
             print("Correo encontrado.")
             if i["contrasena"] == contrasena:
                 print(f"Contrasena correcta, bienvenido {i["nombre"]}.")
+                sesion_iniciada = True
+                usuario_actual = i
             else:
                 print("Acceso deneago. Contrasena incorrecta.")
-
+            
             return
     print("Correo no encontrado.")
 
 def mostrar_lista(lista):
-    print(lista)
+    if sesion_iniciada == False:
+        print("Debes de iniciar sesión primero. ")
+    else:
+        if usuario_actual["rol"] in [
+            "Administrador",
+            "Supervisor",
+            "Recursos Humanos",
+            "Auditor"
+        ]:
+            for persona in usuarios:
+                    print(f"\nNombre: {persona["nombre"]} | Edad: {persona["edad"]} | Correo: {persona["correo"]} | Rol: {persona["rol"]}\n")
+        else:
+            print("Acceso denegado")
 
 def buscar_lista(lista):
     nombre = input("Pon el nombre de la persona a buscar: ")
