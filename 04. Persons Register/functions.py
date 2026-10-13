@@ -78,7 +78,12 @@ usuario_actual = None
 
 def registrar_usuario():
     nombre = input("Nombre completo: ")
-    edad = input("Edad: ")
+    edad = int(input("Edad: "))
+
+    #Crear sistema que solo permita numeros pero no termine en error en caso de poner STRING
+    #Uso de WHILE y Try / Except
+
+
     correo = input("Correo Electronico: ")
     patron_correo = r"^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,}$"
     while not re.match(patron_correo, correo):
