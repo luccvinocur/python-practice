@@ -7,7 +7,7 @@
 import functions as fnc
 
 while True:
-    print("---- MENU DE OPCIONES ----\n1. Registrarse\n2. Iniciar Sesión\n3. Ver usuarios (Solo si es jefe)\n4. Buscar usuario")
+    print("---- MENU DE OPCIONES ----\n1. Registrarse\n2. Iniciar Sesión\n3. Ver usuarios (Solo si es jefe)\n4. Buscar usuario\n5. Salir del SISTEMA")
     opcion = int(input("Seleccione la opción que desea: "))
 
     if opcion == 1:

@@ -77,7 +77,10 @@ def registrar_usuario():
     edad = input("Edad: ")
     correo = input("Correo Electronico: ")
     rol = input("Rol: ")
-    contrasena = input("Cree una contrasena: ")
+    contrasena = input("Cree una contrasena (Entre 8 y 15 caracteres): ")
+    while len(contrasena) < 8 or len(contrasena) > 15:
+        print("Contrasena no VALIDA, asegurese que tenga entre 8 y 15 caracteres.")
+        contrasena = input("Cree una contrasena (Entre 8 y 15 caracteres): ")
 
     usuario = {
         nombre : nombre,
