@@ -1,3 +1,4 @@
+import re
 
 usuarios = [
     {
@@ -79,7 +80,25 @@ def registrar_usuario():
     nombre = input("Nombre completo: ")
     edad = input("Edad: ")
     correo = input("Correo Electronico: ")
-    rol = input("Rol: ")
+    patron_correo = r"^[\w.-]+@[\w.-]+\.[a-zA-Z]{2,}$"
+    while not re.match(patron_correo, correo):
+        print("Correo inválido.")
+        correo = input("Correo Electronico: ")
+    rol = input("Rol: ").title()
+
+    roles_validos = [
+        "Administrador",
+        "Supervisor",
+        "Recursos Humanos",
+        "Auditor",
+        "Editor",
+        "Operador",
+        "Usuario",
+        "Invitado"
+    ]
+    while rol not in roles_validos:
+        print("El rol seleccionado NO existe.")
+        rol = input("Rol: ").title()
     contrasena = input("Cree una contrasena (Entre 8 y 15 caracteres): ")
     while len(contrasena) < 8 or len(contrasena) > 15:
         print("Contrasena no VALIDA, asegurese que tenga entre 8 y 15 caracteres.")
@@ -93,6 +112,7 @@ def registrar_usuario():
         contrasena : contrasena
     }
 
+    print("Usuario creado EXITOSAMENTE.")
     usuarios.append(usuario)
 
 def iniciar_sesion():
