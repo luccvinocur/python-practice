@@ -1,0 +1,125 @@
+. Nivel fácil — Fundamentos
+Objetivo: practicar variables, condicionales, bucles, funciones, listas, diccionarios y archivos.
+N.º original	Proyecto
+1	Hello World
+2	JSON to CSV
+3	Random Password Generator
+12	Random Word from File
+14	Calculate Age
+15	Text File Analysis
+20	Progress Bar Using tqdm
+25	Split Files Using Number of Lines
+30	Decimal to Binary and Vice Versa
+33	Stopwatch Application
+35	XML to JSON Converter
+38	Convert Dictionary to Python Object
+43	Image Format Conversion
+47	Calculator App
+48	Merge CSV Files
+52	Fetch Unique Words from File
+56	ASCII Art
+59	Convert Numbers to Words
+64	Store Emails in CSV File
+65	Test Internet Connection
+71	Rock Paper Scissors Game
+72	Zip File Extractor
+73	Random Password Generator
+78	Tic Tac Toe
+85	Number Guessing Game
+86	Convert JPEG to PNG
+89	Check Leap Year
+92	Reduce Image Size
+95	PDF to Text
+98	PNG to ICO Converter
+100	Terminal Based Hangman Game
+103	Countdown Timer
+Mi recomendación: elegí uno que te obligue a escribir funciones y organizar el código. Por ejemplo, Hangman o Tic Tac Toe son mejores ejercicios de lógica que limitarte a convertir formatos de archivos.
+2. Nivel intermedio — Aplicaciones útiles
+Objetivo: aprender a utilizar librerías externas, manipular archivos, trabajar con la red y organizar programas con varios componentes.
+N.º original	Proyecto
+4	Instagram Profile Info
+5	Search String in Files
+6	Fetch Links from Webpage
+8	Add Watermark on Images
+10	Split Folders into Subfolders
+11	Download Bulk Images
+12	Random Word from File
+13	Battery Notification
+16	Generate Image Snippets
+17	Organize File System
+18	Send Emails
+19	Get IP Address and Hostname of Website
+21	Get Metadata of Images
+22	Capture Frames from Video
+24	Save Screenshot of Given Website
+26	Encrypt and Decrypt Text
+27	Capture Screenshots at Regular Intervals
+28	Create Password Hash
+31	CLI-Based Todo Application
+32	Currency Converter CLI App
+34	CLI Proxy Tester
+36	Compress Files and Folders
+39	Move Files to Alphabetically Arranged Folders
+42	Text to Speech (MP3)
+44	Save Random Article from Wikipedia
+45	Check Website Connectivity
+46	Fetch City Weather Information
+50	Language Translator Using googletrans
+51	Split Video Using Time Period
+54	Set Random Wallpaper
+55	Find Dominant Color from Image
+57	Merge PDF Files
+60	Restart and Shutdown System
+62	Digital Clock Using Tkinter
+63	Convert Image to PDF
+66	XKCD Comics Downloader
+68	Fetch Domain DNS Record
+69	Python Auto Draw
+70	News Website Scraper
+72	Zip File Extractor
+74	Script to Perform Geocoding
+75	Python Carbon Clips
+76	QR Code Generator
+77	Recursive Password Generator
+81	Quote Scraper
+82	Time to Load Website
+84	Generate Wordcloud from Wikipedia Article
+87	Movie Information Scraper
+88	Fetch HTTP Status Code
+91	HackerNews Scraper
+94	GeeksforGeeks Article Downloader
+97	Duplicate Files Remover
+Algunos proyectos de esta lista, como el scraping de Instagram, pueden resultar avanzados debido a las restricciones de acceso de las plataformas. La clasificación refleja una implementación básica, no necesariamente una versión completa y robusta.
+Los tres que más te recomendaría de este nivel:
+1. CLI-Based Todo Application: para practicar POO, funciones, módulos y manejo de datos.
+2. Organize File System: para aprender a manipular directorios y automatizar tareas reales.
+3. Fetch Links from Webpage: para introducirte en solicitudes HTTP y análisis de HTML.
+3. Nivel avanzado — Integraciones y arquitectura
+Objetivo: combinar varios conceptos, trabajar con APIs, persistencia de datos, interfaces o sistemas externos.
+N.º original	Proyecto
+7	Todo App With Flask
+9	WishList App Using Django
+23	Fetch WiFi Saved Passwords on Windows
+29	Encrypt File and Folders
+37	Find IMDb Movie Ratings
+40	Scrape YouTube Video Comments
+41	Website Summarization
+49	Fetch Tweets and Save in CSV
+53	Speech to Text Converter
+58	Fetch Open Port
+61	Check Website Connectivity (duplicado del 45)
+67	Website Blocker and Unblocker
+79	Tic Tac Toe with AI
+80	Cartoonify an Image
+90	Scrape Medium Articles
+93	Easy Video Player
+96	Unstructured Supplementary Service Data (USSD)
+101	WhatsApp Bot
+El nivel depende bastante de la implementación. Por ejemplo, un bot sencillo que responde mensajes puede ser intermedio, mientras que uno que administra conversaciones, persiste datos y maneja errores puede ser avanzado.
+En los proyectos que acceden a contraseñas, bloquean sitios o interactúan con cuentas, limitate a equipos y cuentas propios o para los que tengas autorización.
+4. Nivel muy avanzado — Seguridad, datos e inteligencia artificial
+Objetivo: trabajar con conceptos que van más allá de la sintaxis de Python y requieren conocimientos adicionales.
+N.º original	Proyecto	Qué lo hace difícil
+83	Customer Loan Repayment Prediction	Machine learning, preparación de datos y evaluación de modelos
+102	Zip Bruter	Búsqueda combinatoria, rendimiento y conocimientos de seguridad informática
+El proyecto 83 requiere aprender análisis de datos y aprendizaje automático. El 102 puede ser computacionalmente costoso; si lo estudiás, hacelo exclusivamente con archivos propios o autorizados.
