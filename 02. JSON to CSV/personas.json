@@ -1,0 +1,51 @@
+
+[
+    {
+        "nombre": "Lucas",
+        "edad": 22,
+        "ciudad": "Merlo",
+        "profesion": "Estudiante"
+    },
+    {
+        "nombre": "Ana",
+        "edad": 25,
+        "ciudad": "Moron",
+        "profesion": "Disenadora"
+    },
+    {
+        "nombre": "Martin",
+        "edad": 31,
+        "ciudad": "Moreno",
+        "profesion": "Programador"
+    },
+    {
+        "nombre": "Sofia",
+        "edad": 28,
+        "ciudad": "Ituzaingo",
+        "profesion": "Docente"
+    },
+    {
+        "nombre": "Mateo",
+        "edad": 19,
+        "ciudad": "Merlo",
+        "profesion": "Estudiante"
+    },
+    {
+        "nombre": "Valentina",
+        "edad": 35,
+        "ciudad": "Moron",
+        "profesion": "Contadora"
+    },
+    {
+        "nombre": "Joaquin",
+        "edad": 26,
+        "ciudad": "Castelar",
+        "profesion": "Tecnico"
+    },
+    {
+        "nombre": "Camila",
+        "edad": 24,
+        "ciudad": "Moreno",
+        "profesion": "Enfermera"
+    }
+]
