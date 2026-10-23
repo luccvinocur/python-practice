@@ -33,7 +33,9 @@ N.º original	Proyecto
 98	PNG to ICO Converter
 100	Terminal Based Hangman Game
 103	Countdown Timer
+
 Mi recomendación: elegí uno que te obligue a escribir funciones y organizar el código. Por ejemplo, Hangman o Tic Tac Toe son mejores ejercicios de lógica que limitarte a convertir formatos de archivos.
+
 2. Nivel intermedio — Aplicaciones útiles
 Objetivo: aprender a utilizar librerías externas, manipular archivos, trabajar con la red y organizar programas con varios componentes.
 N.º original	Proyecto
