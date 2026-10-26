@@ -1,0 +1,7 @@
+Idea Central - 
+Pones un tiempo en minutos y categorias
+Ese tiempo se guarda como un acumulable de estudio
+
+La idea a futuro es de alguna forma tener un sistema diario, que separe el estudio por dias
+
+Se puede hacer un grafico con MatPlotLib / Pandas (Alguno de los dos era)
